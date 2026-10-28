@@ -1,20 +1,20 @@
 # YouTube MP3 Downloader
 
-A simple Python tool that downloads audio from a YouTube video and converts it to MP3 using yt-dlp and FFmpeg.
+A small Python project I made to download audio from YouTube videos and convert it to MP3.
 
 ## Features
 
-- Download audio from a YouTube video
-- Convert audio to MP3
-- Set the output quality to 192 kbps
-- Use the video title as the output filename
-- Download a single video, even when the URL contains playlist parameters
+- Downloads audio from a YouTube video
+- Converts audio to MP3 at 192 kbps
+- Saves the file using the video's title
+- Downloads only the selected video, not the entire playlist
+- Works from the terminal with a pasted YouTube URL
 
 ## Requirements
 
-- Python 3.10 or newer
-- FFmpeg
-- Node.js (for the configured JavaScript runtime)
+- Python 3.10+
+- [FFmpeg](https://ffmpeg.org/)
+- [Node.js](https://nodejs.org/)
 
 ## Installation
 
@@ -43,7 +43,7 @@ Install the Python dependencies:
 pip install -r requirements.txt
 ```
 
-Make sure FFmpeg and Node.js are installed and available on your system PATH.
+Make sure FFmpeg and Node.js are installed and available in your system PATH.
 
 ## Usage
 
@@ -53,10 +53,12 @@ Run the program:
 python main.py
 ```
 
-Paste the YouTube URL when prompted.
+Paste the YouTube video URL when prompted. The resulting MP3 file will be saved in the current folder.
 
-The resulting MP3 file is saved in the current working directory.
+## Cost
+
+Free to use.
 
 ## License
 
-No license has been specified yet.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
