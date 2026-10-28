@@ -1,0 +1,17 @@
+
+# Ambiente virtuale Python
+venv/
+.venv/
+
+# File audio scaricati
+*.mp3
+*.webm
+*.m4a
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Configurazione editor
+.vscode/
+.idea/
