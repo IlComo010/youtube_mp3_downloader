@@ -6,6 +6,7 @@ options = {
     "format": "bestaudio/best",
     "outtmpl": "%(title)s.%(ext)s",
     "js_runtimes": {"node": {}},
+    "noplaylist": True,
     "postprocessors": [{
         "key": "FFmpegExtractAudio",
         "preferredcodec": "mp3",
